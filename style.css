@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-bottom: 10px; */
+
+
+}
+button{
+    border: 3px solid black;
+    border-top: white;
+    border-left: white;
+ background-color: rgb(106, 165, 165);
+
+}
+#button-3 {
+    border-right: white;
+}
+#button-6 {
+    border-right: white;
+}
+#button-7 {
+    border-bottom: white;
+}
+#button-8 {
+    border-bottom: white;
+}
+#button-9 {
+    border-bottom: white;
+    border-right: white;
+}
+#Rest-Button{
+    position: absolute; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: -5px 50px;
+    border: 2px solid black;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#Play-Agein{
+        position: absolute; 
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 5px 40px;
+        border: 2px solid black;
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+}
